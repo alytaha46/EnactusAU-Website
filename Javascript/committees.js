@@ -1,2 +1,1 @@
 var hi;
-var hello;
