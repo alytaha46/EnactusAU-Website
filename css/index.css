@@ -1,3 +1,60 @@
-body{
-    
-}
+
+@font-face {
+    font-family: CenturyGothicB;
+    src: url(GOTHICB.TTF);
+  }
+  @font-face {
+    font-family: CenturyGothic;
+    src: url(GOTHIC.TTF);
+  }
+  @font-face {
+    font-family: Gilroy-ExtraBold;
+    src: url(Gilroy-ExtraBold.otf);
+  }
+  @font-face {
+    font-family: Gilroy-Light;
+    src: url(Gilroy-Light.otf);
+  }
+  body{
+    background-color: black !important;
+    text-align: center !important;
+  }
+  .bordered{
+    border: 2px solid #FEC223;
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: CenturyGothicB;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 10px ;
+  }
+  h1,h3{
+    color: #FFFFFF;
+    font-family: CenturyGothicB;
+    margin-top: 10px !important;
+  }
+  h2{
+    color: #FFFFFF;
+    font-weight:normal;
+    font-style:normal;
+    font-family: CenturyGothicB;
+  }
+  p{
+    color: #FFFFFF;
+    font-family: Gilroy-Light;
+  }
+  .border{
+    border: 3px solid #FEC223;
+    border-width: 0 1px;
+  
+  
+  }
+  h3{
+    font-size: 25px !important;
+    margin-top: 10px;
+  }
+  .what-we-do .container img{
+    height:200px;
+  }
