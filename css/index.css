@@ -1,3 +1,120 @@
 body{
-    
+    background-color: rgb(17, 17, 17);
+    font-family: CenturyGothicB ;
+}
+@font-face {
+    font-family: CenturyGothicB;
+    src: url(GOTHICB.TTF);
+  }
+  @font-face {
+    font-family: CenturyGothic;
+    src: url(GOTHIC.TTF);
+  } 
+.join-us{
+    background-image: url(../Images/home/Home\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 800px;
+    padding-bottom: 100px;
+    padding-left: 140px;
+    background-size: 100% 100%;
+}
+@media only screen and (max-width: 992px) {
+    .join-us{
+        max-width: 100%;
+        height: 100vh;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+}
+.join-us button{
+    background-color: #FEC223;
+    color:black;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 992px) {
+    .join-us button{
+        font-size: 20px;
+    }
+}
+.row{
+    position: relative;
+}
+.border-circle{
+    background-color: transparent;
+    border: 4px solid #FEC223;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 200px;
+    left: 250px;
+    bottom: 30px;
+}
+.circle{
+    background-color: #FEC223;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 200px;
+    left: 220px;
+    bottom: 10px;
+}
+@media only screen and (max-width: 992px) {
+    .circle,.border-circle{
+        visibility: hidden;
+    }
+}
+/*Who are we*/
+.who-are-we{
+    background-color: rgb(17, 17, 17);
+    text-align: center;
+    padding:100px 0px;
+}
+@media only screen and (max-width: 992px) {
+    .who-are-we{
+        padding:50px 0px;
+    }
+}
+.who-are-we img{
+    width: 100%;
+}
+.who-are-we p{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 2;
+}
+
+@media only screen and (max-width: 992px) {
+    p{
+        font-size: 10px;
+        line-height: 1;
+    }
+}
+.col-xl-6{
+    text-align: center;
+}
+.who-are-we h2{
+    border: 2px solid #FEC223;
+    border-radius: 20px;
+    color: white;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+/*GO TO UP BUTTON*/
+#to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    background:#FEC223;
+    font-weight: bold;
+    color: #ffffff;
+    size: 20px;
+    display: none;
+    z-index: 100000;
 }
