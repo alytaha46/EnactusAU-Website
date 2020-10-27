@@ -1,2 +1,0 @@
-var hi;
-var hello;
