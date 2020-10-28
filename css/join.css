@@ -8,13 +8,11 @@ body
     position: absolute;
     top: 0;
     width: 100%;
-    transition: all .5s ease-in-out !important;
     z-index: 9999;
 }
 .fixed{
     position: fixed !important;
     top: 0 !important;
-    transition: all .5s ease-in-out !important;
 }
 .active
 {
