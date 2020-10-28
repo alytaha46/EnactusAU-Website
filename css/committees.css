@@ -2,15 +2,35 @@
     margin: 0px;
     padding: 0px;
 }
+
 #committeesimage{
     width: 100%;
+}
+#navigation-bar
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: all .5s ease-in-out !important;
+    z-index: 9999;
+}
+.fixed{
+    position: fixed !important;
+    top: 0 !important;
+    transition: all .5s ease-in-out !important;
+}
+.active
+{
+    background-color: #FEC223;
 }
 body{
     background-color: #111111;
 }
 
+
 .section1{
-    background-image: url("COMMITTEES img.png");
+    background-image: url("../Images/COMMITTEES\ img.png");
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -44,11 +64,11 @@ body{
 }
 @font-face {
     font-family: CenturyGothicB;
-    src: url(GOTHICB.TTF);
+    src: url(../Fonts/GOTHICB.TTF);
   }
   @font-face {
     font-family: CenturyGothic;
-    src: url(GOTHIC.TTF);
+    src: url(../Fonts/GOTHIC.TTF);
   } 
 #section2title{
     font-family: CenturyGothicB ;
@@ -97,4 +117,38 @@ body{
 }
 .sec2{
     margin-top: 200px;
+}
+
+@media(max-width: 768px){
+    .titlediv{
+        margin-bottom: 90px;
+    }
+    .teamimg{
+        margin-top: 0;
+    }
+    #section2title{
+        font-size: 5.8vw;
+    }
+    .maintexttitle{
+        font-size: 25px;
+    }
+    .navbar-collapse{
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+#to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    background:#FEC223;
+    font-weight: bold;
+    color: #000;
+    size: 20px;
+    display: none;
+    z-index: 100000;
+    border-radius: 5px;
 }
