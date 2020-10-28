@@ -1,6 +1,7 @@
-$(Document).ready(function(){
-    $(".num").numScroll({
-        'time': 1500,
-        'delay': 0
-      });
-})
+$(document).ready(function () {
+
+  $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+});  
+});
