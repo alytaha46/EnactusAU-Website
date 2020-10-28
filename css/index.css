@@ -1,19 +1,19 @@
 
 @font-face {
     font-family: CenturyGothicB;
-    src: url(GOTHICB.TTF);
+    src: url(../Fonts/GOTHICB.TTF);
   }
   @font-face {
     font-family: CenturyGothic;
-    src: url(GOTHIC.TTF);
+    src: url(../Fonts/GOTHIC.TTF);
   }
   @font-face {
     font-family: Gilroy-ExtraBold;
-    src: url(Gilroy-ExtraBold.otf);
+    src: url(../Fonts/Gilroy-ExtraBold.otf);
   }
   @font-face {
     font-family: Gilroy-Light;
-    src: url(Gilroy-Light.otf);
+    src: url(../Fonts/Gilroy-Light.otf);
   }
   body{
     background-color: black !important;
