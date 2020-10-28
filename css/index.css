@@ -10,15 +10,32 @@ body{
     font-family: CenturyGothic;
     src: url(GOTHIC.TTF);
   } 
+
+  #navigation-bar
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: all .5s ease-in-out !important;
+    z-index: 9999;
+}
+.fixed{
+    position: fixed !important;
+    top: 0 !important;
+    transition: all .5s ease-in-out !important;
+}
+.active
+{
+    background-color: #FEC223;
+}
+
 .join-us{
-    background-image: url(../Images/home/Home\ img.png);
-    background-repeat: no-repeat;
+    background-image: url('../Images/home/Home\ img.png');
+    background-position: center;
     background-size: cover;
-    max-width: 100%;
-    height: 800px;
-    padding-bottom: 100px;
-    padding-left: 140px;
-    background-size: 100% 100%;
+    height: 100vh;
+   
 }
 @media only screen and (max-width: 992px) {
     .join-us{
@@ -94,6 +111,14 @@ body{
         line-height: 1;
     }
 }
+
+@media(max-width: 768px){
+    .navbar-collapse{
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
 .col-xl-6{
     text-align: center;
 }
@@ -113,8 +138,9 @@ body{
     padding: 10px 15px;
     background:#FEC223;
     font-weight: bold;
-    color: #ffffff;
+    color: #000;
     size: 20px;
     display: none;
     z-index: 100000;
+    border-radius: 5px;
 }
