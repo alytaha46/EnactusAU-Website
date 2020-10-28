@@ -1,7 +1,4 @@
-body{
-    background-color: rgb(17, 17, 17);
-    font-family: CenturyGothicB ;
-}
+
 @font-face {
     font-family: CenturyGothicB;
     src: url(../Fonts/GOTHICB.TTF);
@@ -10,7 +7,11 @@ body{
     font-family: CenturyGothic;
     src: url(../Fonts/GOTHIC.TTF);
   } 
-
+  body{
+    background-color: rgb(17, 17, 17);
+    font-family: CenturyGothicB ;
+    text-align: center !important;
+}
   #navigation-bar
 {
     background-color: rgba(0, 0, 0, 0.5);
@@ -129,6 +130,45 @@ body{
     box-sizing: border-box;
     margin-bottom: 30px;
 }
+.bordered{
+    border: 2px solid #FEC223;
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: CenturyGothicB;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 10px ;
+  }
+  h1,h3{
+    color: #FFFFFF;
+    font-family: CenturyGothicB;
+    margin-top: 10px !important;
+  }
+  h2{
+    color: #FFFFFF;
+    font-weight:normal;
+    font-style:normal;
+    font-family: CenturyGothicB;
+  }
+  p{
+    color: #FFFFFF;
+    font-family: Gilroy-Light;
+  }
+  .border{
+    border: 3px solid #FEC223;
+    border-width: 0 1px;
+  
+  
+  }
+  h3{
+    font-size: 25px !important;
+    margin-top: 10px;
+  }
+  .what-we-do .container img{
+    height:200px;
+  }
 /*GO TO UP BUTTON*/
 #to-top {
     position: fixed;
