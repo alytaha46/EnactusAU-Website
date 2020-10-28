@@ -4,11 +4,11 @@ body{
 }
 @font-face {
     font-family: CenturyGothicB;
-    src: url(GOTHICB.TTF);
+    src: url(../Fonts/GOTHICB.TTF);
   }
   @font-face {
     font-family: CenturyGothic;
-    src: url(GOTHIC.TTF);
+    src: url(../Fonts/GOTHIC.TTF);
   } 
 
   #navigation-bar
