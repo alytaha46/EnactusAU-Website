@@ -34,6 +34,10 @@
     height: 100vh;
    
 }
+.footer-text
+    {
+        font-family: CenturyGothic;
+    }
 @media only screen and (max-width: 992px) {
     .join-us{
         background-image: url('../Images/home/Home\ img2.png');
@@ -41,6 +45,11 @@
         height: 100vh;
         padding-bottom: 0px;
         padding-left: 0px;
+    }
+    .footer-text
+    {
+        font-size: 18px;
+        font-family: CenturyGothic;
     }
 
 }

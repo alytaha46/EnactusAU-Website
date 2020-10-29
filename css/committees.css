@@ -25,7 +25,23 @@
 body{
     background-color: #111111;
 }
+h1,h3{
+    color: #FFFFFF;
+    font-family: CenturyGothicB;
+    margin-top: 10px !important;
+  }
+  
+h2{
+color: #FFFFFF;
+font-weight:normal;
+font-style:normal;
+font-family: CenturyGothicB;
+}
 
+p{
+color: #FFFFFF;
+font-family: CenturyGothic;
+}
 
 .section1{
     background-image: url("../Images/committees/COMMITTEES\ img.png");
@@ -35,6 +51,10 @@ body{
     background-color: #111111;
     
 }
+.footer-text
+    {
+        font-family: CenturyGothic;
+    }
 @media only screen and (max-width: 800px) {
     .shapes{
         display: none ;
@@ -44,6 +64,11 @@ body{
     .section1{
         height: 50wh;
         background-image: url("../Images/committees/COMMITTEES\ img\ 2.png");
+    }
+    .footer-text
+    {
+        font-size: 18px;
+        font-family: CenturyGothic;
     }
 }
 .section2{
