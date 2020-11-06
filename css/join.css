@@ -1,6 +1,16 @@
+@font-face {
+    font-family: CenturyGothicB;
+    src: url(../Fonts/GOTHICB.TTF);
+  }
+  @font-face {
+    font-family: CenturyGothic;
+    src: url(../Fonts/GOTHIC.TTF);
+  } 
 body
 {
     background-color: rgb(17, 17, 17);
+    text-align: center !important;
+    color: #ffffff;
 }
 #navigation-bar
 {
