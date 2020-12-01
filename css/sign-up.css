@@ -33,12 +33,15 @@ body
         margin-top: 20px;
     }
 }
-.sign-in
+.sign-up
 {
     margin-top: 120px;
     margin-bottom: 50px;
 }
-#sign-in-button
+small{
+    color: red;
+}
+#sign-up-button
 {
     background-color: #FEC223;
     color: black;

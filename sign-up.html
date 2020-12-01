@@ -60,23 +60,67 @@
         </div>
     </nav>
 
-    <div class="sign-in">
+    <div class="sign-up">
         <div class="container">
             <div class="row">
-                <div class="col-md-7 col-11 mx-auto bg-dark p-3" style="border-radius: 25px;">
+                <div class="col-md-6 col-11 mx-auto bg-dark p-3" style="border-radius: 25px;">
                     <form>
                         <div class="form-group">
-                          <label for="exampleInputEmail1">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com">
-                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <label for="fullName">Full Name</label>
+                            <input type="text" class="form-control" id="fullName" aria-describedby="nameHelp"
+                                placeholder="Aly Mohammed Taha Hazem">
+                            <small id="nameHelp" class="form-text "></small>
                         </div>
                         <div class="form-group">
-                          <label for="exampleInputPassword1">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                          <small id="invalid" class="form-text" style="color: red;">invalid email or password</small>
+                            <label for="gender">Gender</label>
+                            <select class="form-control" id="gender">
+                                <option value="" disabled selected>Select your gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                            <small id="genderHelp" class="form-text "></small>
                         </div>
-                        <button type="button" id="sign-in-button" class="btn btn-primary">Sign in</button>
-                      </form>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="number" class="form-control" id="phone"
+                                aria-describedby="phoneHelp" placeholder="01012345678">
+                            <small id="phoneHelp" class="form-text "></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="committee">Committee</label>
+                            <select class="form-control" id="committee">
+                                <option value="" disabled selected>Select your committee</option>
+                                <option value="Board">Board</option>
+                                <option value="HR">HR</option>
+                                <option value="PR & Marketing">PR & Marketing</option>
+                                <option value="Presentation">Presentation</option>
+                                <option value="Project">Project</option>
+                                <option value="IT">IT</option>
+                                <option value="Social media & Design">Social media & Design</option>
+                                <option value="Photographers & Video editing">Photographers & Video editing</option>
+                            </select>
+                            <small id="committeeHelp" class="form-text "></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email"
+                                aria-describedby="emailHelp" placeholder="name@example.com">
+                            <small id="emailHelp" class="form-text "></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password"
+                                aria-describedby="passwordHelp" placeholder="Password">
+                            <small id="passwordHelp" class="form-text "></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirmPassword">Confirm Password</label>
+                            <input type="password" class="form-control" id="confirmPassword"
+                                aria-describedby="confirmPasswordHelp" placeholder="Confirm Password">
+                            <small id="confirmPasswordHelp" class="form-text"></small>
+                        </div>
+                        <button type="button" id="sign-up-button" class="btn btn-primary">Sign up</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -148,7 +192,7 @@
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-database.js"></script>
-
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-auth.js"></script>
     <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
     <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-analytics.js"></script>
